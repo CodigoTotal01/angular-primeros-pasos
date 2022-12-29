@@ -1,0 +1,16 @@
+<h3>Agregar</h3>
+        <hr>
+
+<!-- el que dispara todo es el formulario, nos interesa recivbir el evento que se esta disparando   -->
+        <form (ngSubmit)="agregar()"> <!--! Nomenclatura estructa -> nos interesa rcivbir el evento de todo el formulario-->
+            <!-- <input type="text" placeholder="Nombre" [value]="nuevo.nombre" (input)="cambiarNombre( $event )"/>
+           [] establecer propiedad = apuntar a la propiedad ->  -->
+
+           <!-- ! [] usar propiedad-> mostrar  () escuchar valores -> recive y envia -->
+           <input type="text" name="nombre" placeholder="Nombre" [(ngModel)]="nuevo.nombre"/>
+            <input type="number" name="poder" placeholder="Poder" [(ngModel)]="nuevo.poder"/> 
+            <!-- escuchar un evento -->
+            <button type="submit">
+                Agregar
+            </button>
+        </form>

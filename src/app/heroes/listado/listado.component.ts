@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-listado',
@@ -23,5 +23,6 @@ export class ListadoComponent  {
 
   //! Modulos -> mudlo pringipal -> contiene los comopenntes.ts -> 
   //Objetibo -> enpacsular las cosas y ayudar con la carga perezosa -> wow -> para que cargar algo de los compoennetes i no lo usa la paersona 
+  // carepeta que agrupe los elementos entre si 
 
 }
